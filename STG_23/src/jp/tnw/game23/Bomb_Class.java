@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 
 public class Bomb_Class {
 
-	final int WX=960;//画面サイズの定義
+	final int WX=960;//画面サイズの定義222222
 	final int WY=540;
 	
 
