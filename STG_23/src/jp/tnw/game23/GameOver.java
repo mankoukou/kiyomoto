@@ -24,7 +24,7 @@ public class GameOver {
 	}
 
 	public void move() {
-		if (Jk.hp <= 0) {	//或いはif(Jk.hp>=0)return;自機ｈｐチェック
+		if (Jk.hp <= 0) {	//或いはif(Jk.hp>=0)return;自機ｈｐチェックuuuuu
 			gameOver = true;
 			alpha += FrameTime * 0.01;
 			if (alpha >= 1)
@@ -36,11 +36,11 @@ public class GameOver {
 			Bom.bomb_req(Jk.x + rx, Jk.y + ry, r);
 
 		}
-		
-	
-		
-		
-		
+
+
+
+
+
 
 	}
 
