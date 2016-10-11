@@ -252,6 +252,7 @@ public class Game_Main implements MouseListener, MouseMotionListener, KeyListene
 		
 		Go.Jk=Jk;
 		Go.Bom=Bom;
+		eA.Jk=Jk;
 
 		try {
 			PNG = ImageIO.read(getClass().getResource(""));// ファイル名
