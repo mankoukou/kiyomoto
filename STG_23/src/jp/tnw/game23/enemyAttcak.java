@@ -99,8 +99,9 @@ public class enemyAttcak {
 		
 			double AcquireAngle;//狙う角度
 			
-			double x_sa=Jk.x+50-x;
+			double x_sa=Jk.x+50-x;//差が0になるときbug
 			double y_sa=Jk.y+50-y;
+			if(x_sa==0)x_sa=0.000001;
 			if(x_sa>0){
 			AcquireAngle =Math.atan(y_sa/x_sa) * 180/Math.PI;//atan=1/tan
 			}else{
