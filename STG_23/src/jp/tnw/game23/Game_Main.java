@@ -57,6 +57,7 @@ public class Game_Main implements MouseListener, MouseMotionListener, KeyListene
 	Item_01 It_01 = new Item_01();
 	
 	GameOver Go =new GameOver();
+	enemyAttcak eA =new enemyAttcak();
 
 	int mx, my;// マウスの座標の保存
 	// ----------------------------------
@@ -109,6 +110,7 @@ public class Game_Main implements MouseListener, MouseMotionListener, KeyListene
 		Bom.Load();
 		It_01.load();
 		Go.load();
+		eA.load();
 
 		// クラス変数へ代入
 		// Jtm.Jk=Jk;//アドレスのコピー
@@ -297,6 +299,7 @@ public class Game_Main implements MouseListener, MouseMotionListener, KeyListene
 			Hk.move();
 			It_01.move();
 			Go.move();
+			eA.move();
 
 			Graphics g2 = offimage.getDrawGraphics();// ｸﾞﾗﾌｨｯｸ初期化
 			Graphics2D g = (Graphics2D) g2;
@@ -333,6 +336,7 @@ public class Game_Main implements MouseListener, MouseMotionListener, KeyListene
 				Bom.Disp(g, Wind);
 				It_01.print(g, Wind);
 				Go.print(g, Wind);
+				eA.print(g, Wind);
 
 				// 文字の表示
 				g.setColor(Color.WHITE);// 色指定

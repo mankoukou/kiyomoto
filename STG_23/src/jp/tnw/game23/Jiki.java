@@ -206,7 +206,7 @@ public class Jiki {
 		//Mapとのあたり？？
 		if (Hk.Hit(x+50,y+60)==1 && D_time<=0){
 			D_time=2;
-			hp-=500;
+			hp-=50;
 		}
 		// -------点滅処理--------
 		 D_time -= FrameTime;
